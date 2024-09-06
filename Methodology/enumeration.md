@@ -35,11 +35,14 @@
 - [ ] Identify mail server software and version
 
 ### HTTP/HTTPS (Ports 80/443)
+    Basic Enumeration Checklist
 - [ ] Identify web server and version
 - [ ] Check for HTTP methods allowed (OPTIONS)
 - [ ] Look for default pages and directories
 - [ ] Analyze SSL/TLS configuration
 - [ ] Check for virtual hosts
+
+Web Application Enumeration Checklist
 
 ### SMB (Port 445)
 - [ ] List shared folders
