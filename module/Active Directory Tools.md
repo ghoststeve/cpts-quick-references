@@ -15,7 +15,7 @@ Many of the module sections require tools such as open-source scripts or precomp
 | [C# Inveigh (InveighZero)](https://github.com/Kevin-Robertson/Inveigh/tree/master/Inveigh) | The C# version of Inveigh with with a semi-interactive console for interacting with captured data such as username and password hashes. |  
 | [rpcclient](https://www.samba.org/samba/docs/current/man-html/rpcclient.1.html) | A part of the Samba suite on Linux distributions that can be used to perform a variety of Active Directory enumeration tasks via the remote RPC service.  |    
 | [CrackMapExec (CME)](https://github.com/byt3bl33d3r/CrackMapExec)  | CME is an enumeration, attack, and post-exploitation toolkit which can help us greatly in enumeration and performing attacks with the data we gather. CME attempts to "live off the land" and abuse built-in AD features and protocols such as SMB, WMI, WinRM, and MSSQL.  |
-| [Netexec] (https://github.com/Pennyw0rth/NetExec) | Netexec has noe replace CME, built of the same code base but currently maintained. |
+| [Netexec](https://github.com/Pennyw0rth/NetExec) | Netexec has now replace CME, built of the same code base but currently maintained. |
 | [Rubeus](https://github.com/GhostPack/Rubeus) |  Rubeus is a C# tool built for Kerberos Abuse.  |  
 | [GetUserSPNs.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/GetUserSPNs.py) | Another Impacket module geared towards finding Service Principal names tied to normal users. |  
 | [Hashcat](https://hashcat.net/hashcat/)           | A great hashcracking and password recovery tool. |  
