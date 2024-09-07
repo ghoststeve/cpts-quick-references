@@ -9,7 +9,7 @@
 ## Host-based Enumeration
 
 
-##### FTP
+#### FTP
 |**Command**|**Description**|
 |-|-|
 | `ftp <FQDN/IP>` | Interact with the FTP service on the target. |
@@ -19,7 +19,7 @@
 | `wget -m --no-passive ftp://anonymous:anonymous@<target>` | Download all available files on the target FTP server. |
 
 
-##### SMB
+#### SMB
 |**Command**|**Description**|
 |-|-|
 | `smbclient -N -L //<FQDN/IP>` | Null session authentication on SMB. |
@@ -31,7 +31,7 @@
 | `enum4linux-ng.py <FQDN/IP> -A` | SMB enumeration using enum4linux. |
 
 
-##### NFS
+#### NFS
 |**Command**|**Description**|
 |-|-|
 | `showmount -e <FQDN/IP>` | Show available NFS shares. |
@@ -40,7 +40,7 @@
 | `sudo su` | elevate to root - check permissions on mounted share |
 
 
-##### DNS
+#### DNS
 |**Command**|**Description**|
 |-|-|
 | `dig ns <domain.tld> @<nameserver>` | NS request to the specific nameserver. |
@@ -50,13 +50,13 @@
 
 
 
-##### SMTP
+#### SMTP
 |**Command**|**Description**|
 |-|-|
 | `telnet <FQDN/IP> 25` |  |
 
 
-##### IMAP/POP3
+#### IMAP/POP3
 |**Command**|**Description**|
 |-|-|
 | `curl -k 'imaps://<FQDN/IP>' --user <user>:<password>` | Log in to the IMAPS service using cURL. |
@@ -64,7 +64,7 @@
 | `openssl s_client -connect <FQDN/IP>:pop3s` | Connect to the POP3s service. |
 
 
-##### SNMP
+#### SNMP
 |**Command**|**Description**|
 |-|-|
 | `snmpwalk -v2c -c <community string> <FQDN/IP>` | Querying OIDs using snmpwalk. |
@@ -72,26 +72,26 @@
 | `braa <community string>@<FQDN/IP>:.1.*` | Bruteforcing SNMP service OIDs. |
 
 
-##### MySQL
+#### MySQL
 |**Command**|**Description**|
 |-|-|
 | `mysql -u <user> -p<password> -h <FQDN/IP>` | Login to the MySQL server. |
 
 
-##### MSSQL
+#### MSSQL
 |**Command**|**Description**|
 |-|-|
 | `mssqlclient.py <user>@<FQDN/IP> -windows-auth` | Log in to the MSSQL server using Windows authentication. |
 
 
-##### IPMI
+#### IPMI
 |**Command**|**Description**|
 |-|-|
 | `msf6 auxiliary(scanner/ipmi/ipmi_version)` | IPMI version detection. |
 | `msf6 auxiliary(scanner/ipmi/ipmi_dumphashes)` | Dump IPMI hashes. |
 
 
-##### Linux Remote Management
+#### Linux Remote Management
 |**Command**|**Description**|
 |-|-|
 | `ssh-audit.py <FQDN/IP>` | Remote security audit against the target SSH service. |
@@ -100,7 +100,7 @@
 | `ssh <user>@<FQDN/IP> -o PreferredAuthentications=password` | Enforce password-based authentication. |
 
 
-##### Windows Remote Management
+#### Windows Remote Management
 |**Command**|**Description**|
 |-|-|
 | `rdp-sec-check.pl <FQDN/IP>` | Check the security settings of the RDP service. |
@@ -108,7 +108,7 @@
 | `evil-winrm -i <FQDN/IP> -u <user> -p <password>` | Log in to the WinRM server. |
 | `wmiexec.py <user>:"<password>"@<FQDN/IP> "<system command>"` | Execute command using the WMI service. |
 
-##### Oracle TNS
+#### Oracle TNS
 |**Command**|**Description**|
 |-|-|
 | `./odat.py all -s <FQDN/IP>` | Perform a variety of scans to gather information about the Oracle database services and its components. |
