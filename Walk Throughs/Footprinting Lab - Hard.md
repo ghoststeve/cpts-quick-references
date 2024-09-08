@@ -103,11 +103,11 @@ curl -k 'imaps://10.129.19.122' --user tom:NMds732Js2761
 
 >Setup GUI `Evolution` Mail client to read emails in inbox.  
 
-![evolution1-Footprinting-Lab-Hard][/images/evolution1-Footprinting-Lab-Hard.png)  
+![evolution1-Footprinting-Lab-Hard](/images/evolution1-Footprinting-Lab-Hard.png)  
 
-![evolution 2 Footprinting-Lab-Hard][/images/evolution2-Footprinting-Lab-Hard.png)  
+![evolution 2 Footprinting-Lab-Hard](/images/evolution2-Footprinting-Lab-Hard.png)  
 
-![evolution 3 Footprinting Lab Hard][/images/evolution3-Footprinting-Lab-Hard.png)  
+![evolution 3 Footprinting Lab Hard](/images/evolution3-Footprinting-Lab-Hard.png)  
 
 >Discover a SSH Key in the inbox of user `Tom` from `tech@inlanefreight.htb`  
 
