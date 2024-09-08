@@ -9,4 +9,5 @@ python -m venv venv --prompt="py-env-1"
 venv\scripts\activate
 
 #Install packages
-python pip install <package>
+python -m pip install <package>
+python -m pip llist
