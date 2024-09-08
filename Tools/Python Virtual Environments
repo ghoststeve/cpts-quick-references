@@ -6,7 +6,8 @@ cd python-env
 python -m venv venv --prompt="py-env-1"
 
 #Activate the environment
-venv\scripts\activate
+venv\scripts\activate #PowerShell
+source venv/bin/activate #Linux
 
 #Install packages
 python -m pip install <package>
