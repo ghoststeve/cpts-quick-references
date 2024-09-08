@@ -1,0 +1,5 @@
+#TCP All Port Scan with versioning
+nmap -p- -T4 -sV <IP>
+
+#UDP Common Port Scan
+nmap -sU -p 21,22,53,67,68,111,137,143,161,162 <IP>
