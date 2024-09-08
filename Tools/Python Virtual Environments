@@ -3,6 +3,7 @@ mkdir python-env
 cd python-env
 
 #Create python virtual environment
+python -m venv venv
 python -m venv venv --prompt="py-env-1"
 
 #Activate the environment
